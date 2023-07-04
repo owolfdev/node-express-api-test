@@ -1,5 +1,6 @@
 [build]
-command = "npm run netlify-lambda build"
+command = "npm install"
+publish = "api"
 
 [[redirects]]
 from = "/*"
