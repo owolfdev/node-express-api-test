@@ -56,6 +56,17 @@ Remember to consult the official Google Cloud documentation for detailed instruc
   gcloud app deploy
 ```
 
+```yaml
+runtime: nodejs16
+
+instance_class: F2
+
+env_variables:
+  PORT: 8080
+  NOTION_API_KEY: "secret_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  NOTION_DATABASE_ID: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
 --------- AWS ----------
 
 aws
