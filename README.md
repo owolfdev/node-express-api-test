@@ -56,6 +56,8 @@ Remember to consult the official Google Cloud documentation for detailed instruc
   gcloud app deploy
 ```
 
+This deployment requires a yaml file.
+
 ```yaml
 runtime: nodejs16
 

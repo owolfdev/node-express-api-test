@@ -36,25 +36,6 @@ app.post("/api/users", (req, res) => {
   res.status(201).json(newUser);
 });
 
-// app.post("/api/post", async (req, res) => {
-//   const { title, body } = req.body;
-
-//   const variable = process.env.NOTION_KEY;
-
-//   try {
-//     const notionData = {
-//       project,
-//       email,
-//       variable,
-//     };
-
-//     res.status(201).json(notionData);
-//   } catch (error) {
-//     console.error("Error creating post:", error);
-//     res.status(500).json({ error: "Failed to create post" });
-//   }
-// });
-
 app.post("/api/notion", async (req, res) => {
   const { projectId } = req.body;
 
